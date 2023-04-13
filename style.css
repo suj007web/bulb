@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+.bulb__container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.bulb{
+    height: 10rem;
+    width: 10rem;
+    background-color: yellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.light{
+    box-shadow: 0 0 5rem yellow;
+}
